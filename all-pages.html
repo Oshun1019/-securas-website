@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>全ページ確認｜SECURAS</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+body{margin:0;background:#f3f6fa;color:#102238;font-family:Arial,'Noto Sans JP',sans-serif}
+.overview-hero{padding:42px 6%;background:linear-gradient(120deg,#061a2d,#0d4d79);color:white}
+.overview-hero h1{margin:8px 0;font-size:clamp(28px,5vw,44px)}
+.overview-hero p{line-height:1.8;color:#d8e5ed;max-width:800px}
+.overview-wrap{max-width:1250px;margin:0 auto;padding:28px 18px 70px}
+.page-jump{display:flex;flex-wrap:wrap;gap:9px;margin:0 0 28px}
+.page-jump a{display:inline-block;background:white;color:#12314b;border:1px solid #d5e0e9;border-radius:999px;padding:10px 14px;text-decoration:none;font-size:13px;font-weight:700}
+.preview-card{background:white;border:1px solid #d8e2eb;border-radius:16px;overflow:hidden;margin:0 0 26px;box-shadow:0 8px 28px #1022380b;scroll-margin-top:16px}
+.preview-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:16px 20px;background:#fff;border-bottom:1px solid #e0e8ef}
+.preview-head h2{font-size:21px;margin:0;color:#09233a}
+.preview-head small{display:block;margin-top:5px;color:#65788a}
+.preview-actions{display:flex;gap:8px;flex-wrap:wrap}
+.preview-actions a{font-size:12px;font-weight:700;text-decoration:none;padding:9px 12px;border-radius:8px;background:#eaf4fb;color:#0c4772}
+.preview-actions a.edit{background:#fbe8ef;color:#7b2948}
+iframe{display:block;width:100%;height:660px;border:0;background:#f5f8fa}
+.note{font-size:13px;line-height:1.8;color:#65788a;margin:0 0 22px}
+@media(max-width:650px){.overview-wrap{padding:18px 10px 50px}.preview-head{padding:14px}.preview-head h2{font-size:18px}iframe{height:600px}}
+</style>
+</head>
+<body>
+<header><a href="index.html" style="color:white;text-decoration:none"><b>SECURAS</b></a><nav><a href="index.html">トップ</a><a href="all-pages.html">全ページ確認</a><a href="https://discord.gg/m7aD3rVCu8" target="_blank" rel="noopener">公式Discord</a></nav></header>
+<section class="overview-hero">
+<div style="max-width:1150px;margin:auto">
+<div style="letter-spacing:3px;font-size:12px;font-weight:700">SECURAS CORPORATE SITE</div>
+<h1>全ページ確認</h1>
+<p>各ページをまとめて確認できます。ページそのものは独立したHTMLファイルのままです。上のメニューから見たいページへ移動するか、各プレビュー上部の「ページを開く」「編集する」を使ってください。</p>
+</div>
+</section>
+<main class="overview-wrap">
+<nav class="page-jump" aria-label="ページ一覧">
+<a href="#p-home">トップページ</a><a href="#p-about">会社概要</a><a href="#p-business">事業内容</a><a href="#p-history">歴史</a><a href="#p-toyo">東陽市</a><a href="#p-training">研修制度</a><a href="#p-people">社員・組織</a><a href="#p-recruit">採用情報</a><a href="#p-news">お知らせ</a><a href="#p-contact">お問い合わせ</a>
+</nav>
+<p class="note">プレビューはそれぞれ独立しています。ページ間のリンクもそのまま利用できます。内容を編集するときは、該当ページの「編集する」を押してください。</p>
+<section class="preview-card" id="p-home"><div class="preview-head"><div><h2>トップページ</h2><small>index.html</small></div><div class="preview-actions"><a href="index.html" target="_blank">ページを開く ↗</a><a class="edit" href="https://github.com/Oshun1019/-securas-website/edit/main/index.html" target="_blank">編集する ✎</a></div></div><iframe src="index.html" title="トップページのプレビュー" loading="lazy"></iframe></section>
+<section class="preview-card" id="p-about"><div class="preview-head"><div><h2>会社概要</h2><small>about.html</small></div><div class="preview-actions"><a href="about.html" target="_blank">ページを開く ↗</a><a class="edit" href="https://github.com/Oshun1019/-securas-website/edit/main/about.html" target="_blank">編集する ✎</a></div></div><iframe src="about.html" title="会社概要のプレビュー" loading="lazy"></iframe></section>
+<section class="preview-card" id="p-business"><div class="preview-head"><div><h2>事業内容</h2><small>business.html</small></div><div class="preview-actions"><a href="business.html" target="_blank">ページを開く ↗</a><a class="edit" href="https://github.com/Oshun1019/-securas-website/edit/main/business.html" target="_blank">編集する ✎</a></div></div><iframe src="business.html" title="事業内容のプレビュー" loading="lazy"></iframe></section>
+<section class="preview-card" id="p-history"><div class="preview-head"><div><h2>歴史</h2><small>history.html</small></div><div class="preview-actions"><a href="history.html" target="_blank">ページを開く ↗</a><a class="edit" href="https://github.com/Oshun1019/-securas-website/edit/main/history.html" target="_blank">編集する ✎</a></div></div><iframe src="history.html" title="歴史のプレビュー" loading="lazy"></iframe></section>
+<section class="preview-card" id="p-toyo"><div class="preview-head"><div><h2>東陽市</h2><small>toyo.html</small></div><div class="preview-actions"><a href="toyo.html" target="_blank">ページを開く ↗</a><a class="edit" href="https://github.com/Oshun1019/-securas-website/edit/main/toyo.html" target="_blank">編集する ✎</a></div></div><iframe src="toyo.html" title="東陽市のプレビュー" loading="lazy"></iframe></section>
+<section class="preview-card" id="p-training"><div class="preview-head"><div><h2>研修制度</h2><small>training.html</small></div><div class="preview-actions"><a href="training.html" target="_blank">ページを開く ↗</a><a class="edit" href="https://github.com/Oshun1019/-securas-website/edit/main/training.html" target="_blank">編集する ✎</a></div></div><iframe src="training.html" title="研修制度のプレビュー" loading="lazy"></iframe></section>
+<section class="preview-card" id="p-people"><div class="preview-head"><div><h2>社員・組織</h2><small>people.html</small></div><div class="preview-actions"><a href="people.html" target="_blank">ページを開く ↗</a><a class="edit" href="https://github.com/Oshun1019/-securas-website/edit/main/people.html" target="_blank">編集する ✎</a></div></div><iframe src="people.html" title="社員・組織のプレビュー" loading="lazy"></iframe></section>
+<section class="preview-card" id="p-recruit"><div class="preview-head"><div><h2>採用情報</h2><small>recruit.html</small></div><div class="preview-actions"><a href="recruit.html" target="_blank">ページを開く ↗</a><a class="edit" href="https://github.com/Oshun1019/-securas-website/edit/main/recruit.html" target="_blank">編集する ✎</a></div></div><iframe src="recruit.html" title="採用情報のプレビュー" loading="lazy"></iframe></section>
+<section class="preview-card" id="p-news"><div class="preview-head"><div><h2>お知らせ</h2><small>news.html</small></div><div class="preview-actions"><a href="news.html" target="_blank">ページを開く ↗</a><a class="edit" href="https://github.com/Oshun1019/-securas-website/edit/main/news.html" target="_blank">編集する ✎</a></div></div><iframe src="news.html" title="お知らせのプレビュー" loading="lazy"></iframe></section>
+<section class="preview-card" id="p-contact"><div class="preview-head"><div><h2>お問い合わせ</h2><small>contact.html</small></div><div class="preview-actions"><a href="contact.html" target="_blank">ページを開く ↗</a><a class="edit" href="https://github.com/Oshun1019/-securas-website/edit/main/contact.html" target="_blank">編集する ✎</a></div></div><iframe src="contact.html" title="お問い合わせのプレビュー" loading="lazy"></iframe></section>
+</main>
+<footer><b>SECURAS INC.</b><p>セキュラス株式会社｜厳正・誠実・信頼</p><p>本サイトはRoblox内でのRP活動を目的とした非公式サイトです。</p></footer>
+</body></html>
