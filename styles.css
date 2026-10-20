@@ -102,3 +102,17 @@ footer{background:#03101b;color:#d0dbe3;padding:35px 6%}footer p{color:#c1ced8}
 .securas-edit-link{position:fixed;right:16px;bottom:16px;z-index:9999;background:#f7c8d8;color:#102238;text-decoration:none;font-size:13px;font-weight:700;padding:12px 17px;border-radius:999px;box-shadow:0 6px 22px #06162533;border:1px solid #fff;transition:transform .2s,box-shadow .2s}
 .securas-edit-link:hover{transform:translateY(-2px);box-shadow:0 9px 26px #06162544}
 @media(max-width:600px){.securas-edit-link{right:10px;bottom:10px;padding:10px 13px;font-size:12px}}
+
+/* Improve readability of long representative message */
+.representative-message{
+  background:linear-gradient(135deg,#f3f6ff 0%,#eaf2ff 55%,#eaf8f5 100%);
+  color:#172b43;
+  padding:clamp(24px,4vw,42px);
+  border:1px solid #cbd8ea;
+  border-left:6px solid #7b78d8;
+  box-shadow:0 12px 30px #10223816;
+}
+.representative-message h2{color:#122d4a;line-height:1.5}
+.representative-message p{color:#243b54;line-height:2.05;font-size:16px}
+.representative-message .rep-kicker{color:#69447f}
+.representative-message .rep-signature{color:#122d4a}
